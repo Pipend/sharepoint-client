@@ -17,9 +17,8 @@ get-list-items name
 
 ```javascript
 require("sharepoint-client")(endPoint, username, password)
-    .then((client) => {
-        client.getLists().then((lists) => {
+    .then(client => 
+        client.getLists().then(lists => 
             client.getListItems(lists[0].name)
-        })
-    })
+    ))
 ```
