@@ -1,0 +1,5 @@
+*.DS_Store
+*.js
+*.rdb
+*.sublime-workspace
+node_modules/

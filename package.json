@@ -1,0 +1,23 @@
+{
+  "name": "sharepoint-client",
+  "version": "0.0.1",
+  "description": "Sharepoint 2013 REST client",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/index.ls --compilers ls:livescript"
+  },
+  "author": "Furqan Zafar",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "cheerio": "^0.20.0",
+    "ejs": "^2.4.1",
+    "npm": "^3.8.2",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livescript": "^3.0.0",
+    "livescript": "^1.4.0"
+  }
+}

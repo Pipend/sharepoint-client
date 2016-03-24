@@ -1,0 +1,5 @@
+.gitignore
+*.ls
+*.sublime-project
+*.sublime-workspace
+test/
