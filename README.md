@@ -1,6 +1,7 @@
 # sharepoint-client
+[![npm version](https://badge.fury.io/js/sharepoint-client.svg)](https://badge.fury.io/js/sharepoint-client)
 
-A simple Promise based node.js REST client for SharePoint online
+A simple, Promise based, node.js REST client for SharePoint online
 
 ## Install
 `npm install sharepoint-client`
